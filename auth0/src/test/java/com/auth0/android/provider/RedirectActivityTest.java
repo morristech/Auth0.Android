@@ -24,7 +24,7 @@ import static org.hamcrest.core.Is.is;
 import static org.robolectric.Shadows.shadowOf;
 
 @RunWith(RobolectricTestRunner.class)
-@Config(sdk = 18, manifest = Config.NONE)
+@Config(sdk = 18)
 public class RedirectActivityTest {
 
 
